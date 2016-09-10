@@ -11800,7 +11800,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Import libraries</span>
@@ -11831,7 +11831,7 @@ div#notebook {
 </div>
 </div>
 
-<div class="output_area"><div class="prompt output_prompt">Out[8]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[1]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -12014,7 +12014,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO: Calculate number of students</span>
@@ -12065,7 +12065,7 @@ Graduation rate of the class: 67.09%
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># detecting imbalanced proportion of &quot;yes&quot; &amp; &quot;no&quot;</span>
@@ -12113,7 +12113,7 @@ f1_score for predicting all &#39;no&#39; : 0.4952
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Extract feature columns</span>
@@ -12155,7 +12155,7 @@ Feature values:
 </div>
 </div>
 
-<div class="output_area"><div class="prompt output_prompt">Out[24]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[4]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -12333,7 +12333,7 @@ Feature values:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[64]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">preprocess_features</span><span class="p">(</span><span class="n">X</span><span class="p">):</span>
@@ -12404,7 +12404,7 @@ Feature values:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[98]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO: Import any additional functionality you may need here</span>
@@ -12580,7 +12580,7 @@ Grad rate of test set: 67.37%
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[72]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">train_classifier</span><span class="p">(</span><span class="n">clf</span><span class="p">,</span> <span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">):</span>
@@ -12653,13 +12653,13 @@ Grad rate of test set: 67.37%
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[82]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO: Import the three supervised learning models from sklearn</span>
 <span class="c1"># from sklearn import model_A</span>
 <span class="kn">from</span> <span class="nn">sklearn.svm</span> <span class="kn">import</span> <span class="n">SVC</span>
-<span class="n">model_A_svc</span> <span class="o">=</span> <span class="n">SVC</span><span class="p">()</span>
+<span class="n">model_A_svc</span> <span class="o">=</span> <span class="n">SVC</span><span class="p">(</span><span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
 
 <span class="c1"># from sklearn import model_B</span>
 <span class="kn">from</span> <span class="nn">sklearn.naive_bayes</span> <span class="kn">import</span> <span class="n">GaussianNB</span>
@@ -12706,70 +12706,70 @@ Grad rate of test set: 67.37%
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Training a SVC using a training set size of 100. . .
-	 Trained model in 0.0042 seconds
-	 Made predictions in 0.0028 seconds.
+	 Trained model in 0.0471 seconds
+	 Made predictions in 0.0011 seconds.
 	 F1 score for training set: 0.8772.
-	 Made predictions in 0.0024 seconds.
+	 Made predictions in 0.0009 seconds.
 	 F1 score for test set: 0.8000.
 None
 Training a SVC using a training set size of 200. . .
-	 Trained model in 0.0088 seconds
-	 Made predictions in 0.0086 seconds.
+	 Trained model in 0.0038 seconds
+	 Made predictions in 0.0026 seconds.
 	 F1 score for training set: 0.8474.
-	 Made predictions in 0.0044 seconds.
+	 Made predictions in 0.0014 seconds.
 	 F1 score for test set: 0.8182.
 None
 Training a SVC using a training set size of 300. . .
-	 Trained model in 0.0302 seconds
-	 Made predictions in 0.0205 seconds.
+	 Trained model in 0.0078 seconds
+	 Made predictions in 0.0051 seconds.
 	 F1 score for training set: 0.8686.
-	 Made predictions in 0.0061 seconds.
+	 Made predictions in 0.0017 seconds.
 	 F1 score for test set: 0.8286.
 None
 --------------------------------------------- 
 
 Training a GaussianNB using a training set size of 100. . .
-	 Trained model in 0.0019 seconds
-	 Made predictions in 0.0009 seconds.
+	 Trained model in 0.0015 seconds
+	 Made predictions in 0.0005 seconds.
 	 F1 score for training set: 0.4536.
-	 Made predictions in 0.0012 seconds.
+	 Made predictions in 0.0004 seconds.
 	 F1 score for test set: 0.2500.
 None
 Training a GaussianNB using a training set size of 200. . .
-	 Trained model in 0.0026 seconds
-	 Made predictions in 0.0015 seconds.
+	 Trained model in 0.0013 seconds
+	 Made predictions in 0.0005 seconds.
 	 F1 score for training set: 0.8071.
-	 Made predictions in 0.0010 seconds.
+	 Made predictions in 0.0004 seconds.
 	 F1 score for test set: 0.7731.
 None
 Training a GaussianNB using a training set size of 300. . .
-	 Trained model in 0.0028 seconds
-	 Made predictions in 0.0017 seconds.
+	 Trained model in 0.0024 seconds
+	 Made predictions in 0.0011 seconds.
 	 F1 score for training set: 0.8246.
-	 Made predictions in 0.0009 seconds.
+	 Made predictions in 0.0004 seconds.
 	 F1 score for test set: 0.7786.
 None
 --------------------------------------------- 
 
 Training a KNeighborsClassifier using a training set size of 100. . .
-	 Trained model in 0.0013 seconds
-	 Made predictions in 0.0038 seconds.
+	 Trained model in 0.0029 seconds
+	 Made predictions in 0.0015 seconds.
 	 F1 score for training set: 0.8750.
-	 Made predictions in 0.0035 seconds.
+	 Made predictions in 0.0016 seconds.
 	 F1 score for test set: 0.7591.
 None
 Training a KNeighborsClassifier using a training set size of 200. . .
-	 Trained model in 0.0016 seconds
-	 Made predictions in 0.0103 seconds.
+	 Trained model in 0.0009 seconds
+	 Made predictions in 0.0035 seconds.
 	 F1 score for training set: 0.8600.
-	 Made predictions in 0.0053 seconds.
+	 Made predictions in 0.0018 seconds.
 	 F1 score for test set: 0.7681.
 None
 Training a KNeighborsClassifier using a training set size of 300. . .
-	 Trained model in 0.0021 seconds
-	 Made predictions in 0.0198 seconds.
+	 Trained model in 0.0009 seconds
+	 Made predictions in 0.0062 seconds.
 	 F1 score for training set: 0.8597.
-	 Made predictions in 0.0089 seconds.
+	 Made predictions in 0.0038 seconds.
 	 F1 score for test set: 0.8406.
 None
 --------------------------------------------- 
@@ -12928,7 +12928,7 @@ None
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer: </strong> Based on available data, the best model would be <strong>KNN</strong>, because it is the one with the highest f1score for both training and test, and it works well with small data that's available</p>
+<p><strong>Answer: </strong> Based on available data, the best model would be svm, although the test result of svm is lower than KNN, however svm has many options to tune it's parameter. Given the small data, it should be computation cheap to combine several parameters to achieve highest result possible.</p>
 
 </div>
 </div>
@@ -12950,7 +12950,9 @@ None
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer: </strong></p>
 <ul>
-<li>the model chosen for this data is K Nearest Neighbors, <strong><em>(however the final result of SVC after being tuned, is actually higher than KNN )</em></strong></li>
+<li>the model chosen for this data is Support Vector Machine. </li>
+<li>Support Vector Machine takes data and try it best to create boundary by maximizing distance between student that passed or failed. After being trained, SVM will produced 2 area, one area belongs to failed and others for passed students</li>
+<li>using this trained model, we can predict if the new student need intervention by observing it's position in either of these 2 boundaries. </li>
 </ul>
 
 </div>
@@ -12982,7 +12984,7 @@ None
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[97]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># TODO: Import &#39;GridSearchCV&#39; and &#39;make_scorer&#39;</span>
@@ -12998,6 +13000,8 @@ None
               <span class="p">}</span>
 
 <span class="n">parameters_SVC</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;C&#39;</span><span class="p">:</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">),</span> <span class="s1">&#39;gamma&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mf">0.1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">]}</span>
+
+
 <span class="k">def</span> <span class="nf">tune_model</span><span class="p">(</span><span class="n">clf</span><span class="p">,</span> <span class="n">parameters</span><span class="p">,</span> <span class="n">model_type</span><span class="p">):</span>
 <span class="c1"># TODO: Make an f1 scoring function using &#39;make_scorer&#39; </span>
     <span class="n">f1_scorer</span> <span class="o">=</span> <span class="n">make_scorer</span><span class="p">(</span><span class="n">f1_score</span><span class="p">,</span> <span class="n">pos_label</span><span class="o">=</span><span class="s1">&#39;yes&#39;</span><span class="p">)</span>
@@ -13030,15 +13034,15 @@ None
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>	 Made predictions in 0.0204 seconds.
+<pre>	 Made predictions in 0.0057 seconds.
 Tuned model for KNN has a training F1 score of 0.8360.
-	 Made predictions in 0.0067 seconds.
+	 Made predictions in 0.0034 seconds.
 Tuned model for KNN has a testing F1 score of 0.8467.
 -------
 
-	 Made predictions in 0.0222 seconds.
+	 Made predictions in 0.0068 seconds.
 Tuned model for SVC has a training F1 score of 0.9349.
-	 Made predictions in 0.0076 seconds.
+	 Made predictions in 0.0043 seconds.
 Tuned model for SVC has a testing F1 score of 0.9143.
 -------
 
@@ -13049,19 +13053,6 @@ Tuned model for SVC has a testing F1 score of 0.9143.
 </div>
 </div>
 
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Questions:">Questions:<a class="anchor-link" href="#Questions:">&#182;</a></h1><ol>
-<li><strong><em>why the result for KNN after tuning is lower before being tuned?</em></strong></li>
-<li><strong><em>SVC after tuning achieved better result, but achieved lower before tuned, do we choose a model based on initial result or we still have to tuned each model?</em></strong></li>
-</ol>
-
-</div>
-</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
